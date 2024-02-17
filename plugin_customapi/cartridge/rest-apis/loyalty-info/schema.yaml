@@ -8,12 +8,12 @@ components:
       type: oauth2
       flows:
         authorizationCode:
-          authorizationUrl: https://kv7kzm78.api.commercecloud.salesforce.com/shopper/auth/v1/organizations/my-org-id/oauth2/authorize
-          tokenUrl: https://kv7kzm78.api.commercecloud.salesforce.com/shopper/auth/v1/organizations/my-org-id/oauth2/token
+          authorizationUrl: https://shortcode.api.commercecloud.salesforce.com/shopper/auth/v1/organizations/my-org-id/oauth2/authorize
+          tokenUrl: https://shortcode.api.commercecloud.salesforce.com/shopper/auth/v1/organizations/my-org-id/oauth2/token
           scopes:
             c_loyaltyInfo_r: Read loyalty information of a customer
         clientCredentials:
-          tokenUrl: https://kv7kzm78.api.commercecloud.salesforce.com/shopper/auth/v1/organizations/my-org-id/oauth2/token
+          tokenUrl: https://shortcode.api.commercecloud.salesforce.com/shopper/auth/v1/organizations/my-org-id/oauth2/token
           scopes:
             c_loyaltyInfo_r: Read loyalty information of a customer
 paths:

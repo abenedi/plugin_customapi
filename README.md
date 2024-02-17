@@ -1,5 +1,5 @@
 # plugin_customapi
-Cartridge Demo as PoC for Salesforce Commerce Custom APIs
+## Cartridge Demo as PoC for Salesforce Commerce Custom APIs
 
 This is a Demo Cartridge based on the Official Salesforce Commerce Documentation, the main idea was to test in an ODS environment the Custom API Extensibility.
 

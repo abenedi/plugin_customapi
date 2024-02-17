@@ -19,5 +19,6 @@ wget --no-check-certificate --quiet \
    'https://{SHORTCODE}.api.commercecloud.salesforce.com/custom/loyalty-info/v1/organizations/{ORG.ID}/customers?c_customer_id=customer1&siteId={SITE.ID}&locale=en-US'
 </code></pre>
 
+### Extra Notes:
 ###### P.S.1: Do not forget to add the new api scope (c_loyaltyInfo_r) to the assigned ClientId (SLAs Admin)
 ###### P.S.2: Modify the Schema file with your shortcode and ordganization id, file: plugin_customapi/cartridge/rest-apis/loyalty-info/schema.yaml

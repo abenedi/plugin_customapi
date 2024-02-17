@@ -18,4 +18,4 @@ wget --no-check-certificate --quiet \
    'https://{SHORTCODE}.api.commercecloud.salesforce.com/custom/loyalty-info/v1/organizations/{ORG.ID}/customers?c_customer_id=customer1&siteId={SITE.ID}&locale=en-US'
 
 
-P.S.: Do not forget to add the new api scope (c_loyaltyInfo_r) to the assigned ClientId (SLAs Admin)
+###### P.S.: Do not forget to add the new api scope (c_loyaltyInfo_r) to the assigned ClientId (SLAs Admin)
